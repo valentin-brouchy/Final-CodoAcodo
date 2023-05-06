@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navHeader {
+    width: 100%;
+    height: 15vh;
+    padding-inline: 150px;
+    background-color: #4e555a;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+
+}
+.navLogo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navImg{
+    width: 250px;
+}
+
+
+.ulHeader {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    color: rgb(214, 212, 212);
+    gap: 20px;
+
+}
+.aHeader{
+    text-decoration: none;
+    color: rgb(154, 154, 154);
+
+}
+
+.navLi{
+    color: #379b37;
+}
+
+.mainFondo{
+    display: flex;
+    align-items: center;
+    
+    background-image:url(/media/image/ba1.jpg);
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 85vh ;
+}
+
+.mainFondo::before {
+    content: "";
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+
+
+.mainText{
+    width: 50vw;
+    padding-right: 150px;
+    position: absolute;
+    right: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+
+}
+.mainBotton{
+    display: flex;
+    gap: 40px;
+}
+.mainP{
+    text-align: end;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.mainB1{
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.mainB2{
+    padding: 15px;
+    background-color:#379b37;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.mainH{
+    font-size: 4rem;
+}
+
+.mainOradores{
+    text-align: center;
+    margin: 2rem;
+}
+
+.caja1{
+   
+    display: flex;
+}
+.caja2{
+background-color: red;
+width: 50vw;
+height: 50vh;
+}
+
+.caja3{
+    background-color: #4e555a;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 5px;
+    
+}
+.mainImage{
+    width: 50vw;
+    height: 50vh;
+}
+.footerB{
+    width: 100vw;
+    height: 15vh;
+    background-color:rgb(29, 73, 98)
+}
+.mainForm{
+    width: 50vw;
+    height: 30vh;
+}
+.mainBtn{
+    width: 100%;
+    height: 3rem;
+    background-color: #5fde5f;
+    color: white;
+    border: #5fde5f;
+    border-radius: 5px;
+}
